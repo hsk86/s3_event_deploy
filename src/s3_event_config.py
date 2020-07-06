@@ -48,6 +48,9 @@ class S3EventConfig:
         self.new_config = config
         return(self)
 
+    def update_config(self):
+        pass
+
     def attach_config(self, notif_config):
         if self.config_type() not in notif_config:
             notif_config[self.config_type()] = []
