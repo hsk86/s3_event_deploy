@@ -1,4 +1,4 @@
-# CRUDdy S3 event deployments
+# S3 event configuration deployments
 Deployment of event configs on existing S3 buckets made (hopefully) simpler. BYO boto3 client object!
 
 *Extremely* work-in-progress.
